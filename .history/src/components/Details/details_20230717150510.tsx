@@ -14,7 +14,7 @@ const Details = () => {
   const [model, setModel] = useState("");
   const [type, setType] = useState("");
   const [years, setYears] = useState("");
-  const handleChange = (e: any) => {
+  const handleChange = (e) => {
     if (e.target.name == "amount") {
       setAmount(e.target.value);
     } else if (e.target.name == "month") {
@@ -31,7 +31,7 @@ const Details = () => {
       setYears(e.target.value);
     }
   };
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     console.log(years, "years");
     console.log("Form is Submitted");
@@ -44,6 +44,7 @@ const Details = () => {
     setType("");
   };
   // console.log(open)
+  let FormatToday = moment(new Date()).format("MM-YYYY");
   const handleClick = () => {
     setOpen(!open);
   };

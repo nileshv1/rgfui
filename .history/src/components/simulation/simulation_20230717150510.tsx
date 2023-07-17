@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 const VehicleSimulation = () => {
   const [open, setOpen] = useState(false);
+  const [value, setValue] = React.useState("");
   const handleClick = () => {
     setOpen(!open);
   };
