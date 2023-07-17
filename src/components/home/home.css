@@ -1,0 +1,124 @@
+.content-home {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.row {
+  --bs-gutter-x: none !important;
+}
+
+.centered {
+  width: 90%;
+  position: absolute;
+  top: 30%;
+  left: 16px;
+}
+
+.controls {
+  justify-content: space-around;
+  background-color: rgb(223, 223, 226);
+}
+
+.horizontal-line {
+  width: 6rem;
+  height: 0.18rem;
+  color: #20ea3c;
+  background-color: #20ea3c;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* //Media Query */
+@media only screen and (max-width: 1024px) {
+  .content-home {
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .row {
+    --bs-gutter-x: none !important;
+  }
+  .centered {
+    width: 90%;
+    position: absolute;
+    top: 30%;
+    left: 16px;
+  }
+  .controls {
+    justify-content: space-around;
+    background-color: rgb(223, 223, 226);
+  }
+  .horizontal-line {
+    width: 6rem;
+    height: 0.18rem;
+    color: #20ea3c;
+    background-color: #20ea3c;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .content-home {
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .row {
+    --bs-gutter-x: none !important;
+  }
+  .centered {
+    width: 90%;
+    position: absolute;
+    top: 30%;
+    left: 16px;
+  }
+  .controls {
+    justify-content: space-around;
+    background-color: rgb(223, 223, 226);
+  }
+  .horizontal-line {
+    width: 6rem;
+    height: 0.18rem;
+    color: #20ea3c;
+    background-color: #20ea3c;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .content-home {
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .row {
+    --bs-gutter-x: none !important;
+  }
+  .centered {
+    width: 90%;
+    position: absolute;
+    top: 30%;
+    left: 16px;
+  }
+  .controls {
+    justify-content: space-around;
+    background-color: rgb(223, 223, 226);
+  }
+  .horizontal-line {
+    width: 6rem;
+    height: 0.18rem;
+    color: #20ea3c;
+    background-color: #20ea3c;
+    margin: 0;
+  }
+  /* .images img {
+    max-width: 100%;
+  } */
+}

@@ -1,0 +1,43 @@
+.horizontal-line {
+  width: 4rem;
+  height: 0.18rem;
+  color: #20ea3c;
+  background-color: #20ea3c;
+  margin: 0;
+  margin-top: 8px;
+}
+
+.vehicleText {
+  width: 22%;
+}
+
+.popup {
+  position: absolute;
+  left: 27%;
+  top: 26%;
+  display: block;
+  width: 24rem;
+  padding: 1rem 3rem;
+}
+
+.popup-hide {
+  display: none;
+}
+
+.simulation-info-blur {
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .vehicleText {
+    width: 75%;
+  }
+}
+
+.btn-outline {
+  background-color: transparent !important;
+  background-image: none !important;
+  border-color: green !important;
+  color: green !important;
+}

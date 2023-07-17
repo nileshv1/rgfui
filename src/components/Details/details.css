@@ -1,0 +1,223 @@
+.details-page{
+   width: 100%;
+   /* margin: auto; */
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 5rem;
+   /* background-color: violet; */
+}
+
+/* buttons */
+.back-button{
+    background-color: transparent;
+    color:grey;
+    outline: none !important;
+    border:0;
+    margin-left: -1rem;
+    text-decoration: underline grey 0.08rem;
+}
+/* icons */
+.fa-chevron-left{
+    margin-right: 0.5rem;
+}
+.fa-times-circle{
+    font-size: 2rem;
+    color: #00ad73;
+    cursor: pointer;
+    margin-left: 15rem;
+}
+.info-icon{
+    position:relative;
+    right: -4px;
+    top:-8px
+}
+.fa-info{
+    font-size: 1.2rem;
+    color:#00ad73;
+    cursor:pointer;
+}
+.horizontal-line{
+    width:6rem;
+    height:0.18rem;
+    color:#00ad73;
+    background-color: #00ad73;
+    margin: 0;
+}
+/* Popup */
+.popup1{
+    position: fixed;
+    left:34%;
+    top:26%;
+    display: block;
+    width: 21rem;
+    /* height: 12rem;  */
+    /* background-color: rgb(145, 50, 50); */
+    padding:1rem 3rem;
+    /* border:1px solid #00ad73; */
+}
+.popup-hide {
+    display:none;
+}
+
+.details-info-blur{
+    opacity: 0.08;
+    /* background-color: rgba(255, 0, 0,0.08); */
+    pointer-events: none 
+}
+.details-info{
+ /* background-color: orange; */
+ width: 40%;
+}
+
+.info-label{
+    /* position:absolute; */
+    margin-bottom: 0.5rem;
+    /* background-color: #d876b2; */
+}
+
+.submit-button{
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin-right: 2rem; */
+}
+.btn{
+    background-color: #55b862 !important;
+    color:white !important;
+}
+.btn-group-lg>.btn, .btn-sm {
+    padding: 0.2rem 4rem !important;
+    /* font-size: 1.4rem; */
+}
+.euro{
+    /* margin-right: 1.5rem; */
+}
+
+
+/* Dropdown */
+.month, .amount {
+    width: 6rem !important;
+}
+.amount, .month, .years{
+    height: 1.7rem;
+}
+.amount{
+    margin-left: 10px;
+}
+.dropdown{
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+}
+.form-select{
+    width: 40% !important;
+}
+select:focus{
+    border:1.5px solid #00ad73;
+    outline:none;
+}
+
+/* //Media Query */
+@media only screen and (max-width: 1024px){
+    .details-info{
+        width: 42%;
+    }
+    .popup1{
+        left:32%;
+        top:24%;
+        width: 21rem;
+    }
+    .fa-times-circle{
+        margin-left: 15rem;
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .details-info{
+        width: 44%;
+    }
+    .amount{
+        margin-left: 5px;
+    }
+    .popup1{
+        left:28%;
+        top:24%;
+        width: 21rem;
+    }
+    .fa-times-circle{
+        margin-left: 15rem;
+        font-size: 1.6rem;
+    }
+    .horizontal-line{
+        width:5.5rem;
+    }
+    /* .info-span{
+        display: inline-block;
+        width: 7rem;
+    } */
+}
+@media only screen and (max-width: 576px){
+    .details-info{
+        width: 90%;
+    }
+    
+   .form-select{
+      width: 100% !important;
+   }
+    .popup1{
+        left:3%;
+        top:24%;
+        width: 21rem;
+    }
+    .fa-times-circle{
+        margin-left: 15rem;
+        font-size: 1.6rem;
+    }
+    .row > div {
+        padding-left: 0 !important;
+        /* width: 50%; */
+    }
+    .month, .amount {
+        width: 12rem !important;
+    }
+    .submit-button{
+        display: flex;
+        flex-direction: row;
+    }
+    .detail-row > div, .detail-row > span{
+        width: 50% !important;
+    }
+    .horizontal-line{
+        width:4.8rem;
+    }
+}
+@media only screen and (max-width: 425px){
+    .info-span{
+        display: inline-block;
+        width: 10rem;
+    }
+    
+}
+
+@media only screen and (max-width: 375px){
+    .info-icon {
+        position: relative;
+        right: -166px;
+        top: -32px;
+    }
+    .info-div{
+        height: 1.5rem;
+    }
+    .info-span2{
+        display: inline-block;
+         width: 9rem;
+    }
+}
+@media only screen and (max-width: 320px){
+    .popup1{
+        left:0%;
+        padding:1rem 2rem;
+    }
+}

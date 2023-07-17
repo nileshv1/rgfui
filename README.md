@@ -1,2 +1,1 @@
-# rgfui
-rgf sample screens
+# rgf-ui
